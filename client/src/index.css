@@ -1,0 +1,30 @@
+@import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@400..900&display=swap');
+@import "tailwindcss";
+@plugin "daisyui";
+
+@theme inline {
+  --color-primary: var(--primary);
+  --color-light: var(--light);
+  --color-bg-primary: var(--bg-primary);
+  --color-bg-secondary: var(--bg-secondary);
+  --color-bg-category: var(--bg-category);
+  --color-bg-card: var(--bg-card);
+  --color-bg-shadowed: var(--bg-shadowed);
+}
+
+@layer base {
+  :root {
+    --primary: #e07be8;
+    --light: #EAC2ED;
+    --bg-primary: rgb(46, 14, 36);
+    --bg-secondary: rgb(23, 10, 37);
+    --bg-category: rgb(39, 10, 72);
+    --bg-card: rgba(23, 20, 27, 0.803);
+    --bg-shadowed: rgba(0, 0, 0, 0.5);
+  }
+}
+
+* {
+  font-family: "Orbitron", sans-serif;
+  box-sizing: border-box;
+}
