@@ -1,6 +1,6 @@
 # Productor_Tests
 
-Website for adding, editing and deleting products with categories to sort them. Not finished. It works with a Postgresql database and has a fully functioning backend but I presume it's not necessary.
+Website for adding, editing and deleting products with categories to sort them. Not finished. It works with a Postgresql database NEON and has a fully functioning backend
 
 (FrontEnd)
 Features:
