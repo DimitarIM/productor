@@ -1,4 +1,4 @@
-import { fireEvent, getByTestId, render, screen } from "@testing-library/react";
+import { fireEvent, render, screen } from "@testing-library/react";
 import ProductCard from "../components/ProductCard";
 
 jest.mock("../components/ProductCartButton", () => ({

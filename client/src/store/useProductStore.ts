@@ -25,7 +25,7 @@ interface ProductState {
 
     fetchProducts: () => void,
     deleteProduct: (id: number) => void,
-    editProduct: (id: number) => void,
+    // editProduct: (id: number) => void,
     addProduct: (event: FormEvent) => void,
 
 }
@@ -97,6 +97,6 @@ export const useProductStore = create<ProductState>((set, get) => ({
         }
     },
 
-    editProduct: async (id) => {
-    }
+    // editProduct: async (id) => {
+    // }
 }))
